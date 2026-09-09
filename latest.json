@@ -1,10 +1,9 @@
 {
-  "version": "2.13.0",
-  "sha256": "a67d16308875f84989bf8529bccaed41fe3b7496c85ffa929af209a771097fac",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.13.0/mediaflow-2.13.0.mfspatch.b64",
+  "version": "2.13.1",
+  "sha256": "c33adc375c50be127477a3eaeedaa041a41211d10ccdf14716631058edbab58b",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.13.1/mediaflow-2.13.1.mfspatch.b64",
   "notes": [
-    "시청 성향 7종별 질문·반박·숫자·효용 훅 우선순위 강화",
-    "쇼츠와 롱폼의 콜드오픈·맥락·전개·결론 재생 순서 보존",
-    "접근 로그와 Windows 테스트 실행 안정성 개선"
+    "Windows와 macOS 설치 시 폴더 선택창 제공",
+    "신규 설치용 웹 다운로드 페이지 제공"
   ]
 }
