@@ -1,6 +1,6 @@
 {
   "version": "2.12.1",
-  "sha256": "7d5d9aa5898085277b8262cdb0b1df73711b379fd31c7dc90245d5d8482cb5f7",
+  "sha256": "eaff7052b329b25de8b971d8d97340c4997145e6288865a3e4dc211d0fc14581",
   "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.12.1/mediaflow-2.12.1.mfspatch.b64",
   "notes": [
     "편집기 영상 업로드 500 오류의 진짜 원인(한국어 로캘 인코딩) 수정 + /logs 페이지 추가",
