@@ -1,0 +1,11 @@
+{
+  "version": "2.12.1",
+  "sha256": "7d5d9aa5898085277b8262cdb0b1df73711b379fd31c7dc90245d5d8482cb5f7",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.12.1/mediaflow-2.12.1.mfspatch.b64",
+  "notes": [
+    "편집기 영상 업로드 500 오류의 진짜 원인(한국어 로캘 인코딩) 수정 + /logs 페이지 추가",
+    "편집기 'AI 제안' 패널의 구간 설명을 실제 발화 인용 기반 훅으로 개선",
+    "AssetVault 웹검색·내 라이브러리에 영리/비영리(NC) 라이선스 필터 추가",
+    "ClipSave: 재구성 방식만 바꿔도 다운로드를 처음부터 다시 하던 문제 수정"
+  ]
+}
