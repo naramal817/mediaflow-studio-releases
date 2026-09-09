@@ -1,9 +1,10 @@
 {
-  "version": "2.13.1",
-  "sha256": "c33adc375c50be127477a3eaeedaa041a41211d10ccdf14716631058edbab58b",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.13.1/mediaflow-2.13.1.mfspatch.b64",
+  "version": "2.14.0",
+  "sha256": "717a97aa52624fcc3ff356a45a4cb9b33bce18478f348a0115f87b1c84f7d629",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.14.0/mediaflow-2.14.0.mfspatch.b64",
   "notes": [
-    "Windows와 macOS 설치 시 폴더 선택창 제공",
-    "신규 설치용 웹 다운로드 페이지 제공"
+    "제목 훅과 평가 개선",
+    "짧은 자동 자막과 타임라인 전체 맞춤",
+    "Windows GUI 설치·트레이 실행"
   ]
 }
