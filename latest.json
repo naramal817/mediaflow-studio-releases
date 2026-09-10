@@ -1,9 +1,10 @@
 {
-  "version": "2.14.1",
-  "sha256": "47fdf2989be53378a4abf307bd7633289674019a36284908f86c72a70c0ed6a1",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.14.1/mediaflow-2.14.1.mfspatch.b64",
+  "version": "2.16.0",
+  "sha256": "a335bf1366a92c397f040e05e81d762b42808d24c03d417cb445a7eaf66b2ebf",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.16.0/mediaflow-2.16.0.mfspatch.b64",
   "notes": [
-    "비공개 업데이트 확인 수정",
-    "조회 실패 안내 정확화"
+    "Faster downloads and persistent storage",
+    "Manual hook, caption and effect editing",
+    "Auto-caption progress and multitrack preview editing"
   ]
 }
