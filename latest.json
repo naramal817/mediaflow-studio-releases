@@ -1,11 +1,14 @@
 {
-  "version": "2.16.1",
-  "sha256": "5ae11f98567e8fe8cf63a6b0e5da41d9ba26dd1f510bfc919141d7b85be083cf",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.16.1/mediaflow-2.16.1.mfspatch.b64",
+  "version": "2.17.0",
+  "sha256": "0426f17844f8f155c69d7f121db6f9ad514439135154ccb7fb5facd4335f6906",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.17.0/mediaflow-2.17.0.mfspatch.b64",
   "notes": [
-    "Persistent downloads and editing projects",
-    "Unified desktop workspace and navigation",
-    "Direct time or frame seek with audio recovery",
-    "Application icon and one-click restart"
+    "내보내기 오버레이·자막 위치가 편집기 미리보기와 같아짐",
+    "오버레이·자막 부분 서식(굵게·기울임·색·폰트)",
+    "타임라인 드래그 다중 선택, 툴바 아이콘, 트랙 버튼 색상",
+    "두 클립 경계 무음 끊김 수정",
+    "플랫폼 이름 비율 표기 + 쇼츠·릴스·틱톡 화면 미리보기",
+    "AI 제안 Gemini CLI·ChatGPT(Codex) 구독 제공자",
+    "master 병합: 수동 편집점→타임라인, 프로젝트 저장, 소개 페이지, 오버레이 이미지 직접 조작"
   ]
 }
