@@ -1,0 +1,120 @@
+# MediaFlow Studio — 배포 저장소
+
+유튜브 콘텐츠 제작(트렌드 확인 → 다운로드 → 소재 관리 → 워터마크 복원 → 편집 → 썸네일)을
+한 컴퓨터 안에서 처리하는 로컬 앱 **MediaFlow Studio** 의 설치 파일과 자동 업데이트 채널입니다.
+소스 저장소는 [naramal817/mediaflow-studio](https://github.com/naramal817/mediaflow-studio) 입니다.
+
+> 이 저장소는 **비공개**입니다. 아래 링크는 GitHub 에 `naramal817` 계정(또는 협업자)으로
+> 로그인한 상태에서만 열립니다. 로그인 없이 열면 404 가 납니다(2026-09-10 실측).
+
+## 설치 파일 — 최신 2.14.1 (2026-09-09)
+
+릴리스 페이지: <https://github.com/naramal817/mediaflow-studio-releases/releases/tag/v2.14.1>
+
+| 파일 | 용도 | 크기 | sha256 |
+|---|---|---|---|
+| [MediaFlow-Studio-Setup-Windows-2.14.1.exe](https://github.com/naramal817/mediaflow-studio-releases/releases/download/v2.14.1/MediaFlow-Studio-Setup-Windows-2.14.1.exe) | **Windows 기본** — GUI 설치 마법사(경로 선택, Python 자동 설치, 바로가기, 트레이 실행) | 5,416,960 B | `39d2aec6c7febdca88f493920fc6d3cc218ecda2e61c987390d4760871935da9` |
+| [MediaFlow-Studio-Setup-Mac-2.14.1.zip](https://github.com/naramal817/mediaflow-studio-releases/releases/download/v2.14.1/MediaFlow-Studio-Setup-Mac-2.14.1.zip) | **Mac 기본** — 풀면 나오는 `.command` 더블클릭, 폴더 선택창에서 위치 지정 | 5,612,402 B | `3df0c29159ac18e1fda6ce3b8d7947e82d685abe91b5985d5aed2c2fb4c3cad8` |
+| [mediaflow-studio-2.14.1.zip](https://github.com/naramal817/mediaflow-studio-releases/releases/download/v2.14.1/mediaflow-studio-2.14.1.zip) | 직접 풀어서 쓰는 압축본(양쪽 OS) | 5,408,645 B | `4ae9622802a4c2cc3b730efd02f11cd094217682777ce63c0a15e38aa45c2a7b` |
+| [MediaFlow-Studio-Setup-Windows-2.14.1.bat](https://github.com/naramal817/mediaflow-studio-releases/releases/download/v2.14.1/MediaFlow-Studio-Setup-Windows-2.14.1.bat) | Windows 호환용 구 설치기(문제 진단용, exe 가 안 될 때만) | 7,399,110 B | `424cb396f2bcf06b41ee74d50af76ce6c2d332a3c007666fef68bff9a287b0d6` |
+| [mediaflow-2.14.1.mfspatch](https://github.com/naramal817/mediaflow-studio-releases/releases/download/v2.14.1/mediaflow-2.14.1.mfspatch) | 2.14.0 → 2.14.1 패치(기존 설치본용, 바뀐 파일만) | 118,834 B | `47fdf2989be53378a4abf307bd7633289674019a36284908f86c72a70c0ed6a1` |
+
+크기·해시는 GitHub Release API 가 보고한 값 그대로입니다. 2.13.1 이하 사용자는 이번 한 번은
+전체 설치기(exe / Mac zip)로 기존 설치 경로에 덮어 설치해야 합니다(2.14.1 에서 비공개 저장소
+업데이트 확인 방식이 바뀌었기 때문). 설치본은 기존 폴더를 만나면 **프로그램 파일만 덮어쓰고**
+설정·받아둔 영상·작업 파일(`.venv` · `.runtime` · `work` · `downloads`)은 그대로 둡니다.
+
+### 요구 사항
+
+- Python 3.9 이상 (Windows exe 설치기는 없으면 동의를 받고 `winget` 으로 3.12 를 함께 설치)
+- 최초 실행 시 인터넷 연결 (처리 엔진 자동 설치, yt-dlp 다운로드)
+- 선택 설치(앱 안에서): 자막 STT 약 350MB · 내레이션 TTS 약 250MB+61MB · 음성 복제 약 1.1GB+1.8GB · AI 누끼(onnxruntime)
+
+### 실행 · 업데이트
+
+- Mac: `start_mac.command` 더블클릭 / Windows: 바탕화면·시작 메뉴의 `MediaFlow Studio`(트레이 상주)
+- 화면: <http://127.0.0.1:8767>
+- 업데이트: 앱이 6시간마다 + 실행할 때마다 이 저장소의 `latest.json` 을 확인해 자동 적용합니다.
+  홈 화면 "업데이트" 칸의 **지금 확인**, 또는 앱 폴더의 `update.command` / `update.bat` 으로도 됩니다.
+  적용 전 파일은 `backups/` 에 남아 되돌릴 수 있습니다.
+- Mac 첫 실행에서 "열지 않음" 경고가 뜨면: `xattr -dr com.apple.quarantine <앱 폴더>` 한 번.
+
+자세한 설치·실행·업데이트 안내는 소스 저장소의
+[README.md](https://github.com/naramal817/mediaflow-studio/blob/51e4779/README.md) 를 보십시오.
+
+## 구현된 기능 — 2.14.1 설치본 기준
+
+정본은 [docs/FEATURES.md](https://github.com/naramal817/mediaflow-studio/blob/51e4779/docs/FEATURES.md)
+(실제 구현된 것만, 없는 기능은 따로 표기) 입니다. 아래는 그 요약입니다.
+
+| 메뉴 | 되는 것 |
+|---|---|
+| **① 트렌드 탐색** `/trends` | 카테고리별 인기·최신·급상승, 조건 검색, 영상별 콘텐츠 점수 + 계산 근거, 다운로드로 넘기기 (유튜브 API 키 필요). **콘텐츠 제안** 탭은 키 없이 동작 — 주제·방향·형식·컷오프로 후보 생성(AI 또는 로컬 규칙), 채점 후 추천/탈락 분리, 탈락 사유 표시 |
+| **② 정책 소식** `/policy` | 공식 RSS 15개(유튜브·구글·메타·한국저작권위·문체부) 수집, 검색·출처·기간·안읽음 필터, AI 요약(선택). **저작권 체크** 탭: 라이선스 사전 14종, 권리 처리 절차 5종, 내 소재 점검 → 위험도 + 크레딧 문구 자동 생성 |
+| **③ 다운로드** `/download` | 영상 정보 확인, 해상도 선택/MP3 다운로드, 분석 → 형식(원본·롱폼·쇼츠) × 편집 방향 7종(시사 보수/진보/중립·예능 재미/감동·정보·논쟁)으로 **제목 후보 10개 + 편집점**(실제 발화 인용 기반, 근거 표시), AI 자동 실행·취소·재생성·로컬 되돌리기, 문구 다듬기, 편집기로 보내기 |
+| **④ 에셋 라이브러리** `/assets` | 9종(이미지·영상·BGM·효과음·아이콘·폰트·TTS음성·워터마크·템플릿) 관리, 태그·라이선스·영리/비영리 필터, sha256 중복 제거. **웹에서 찾기**: 키 없이 Iconify·Openverse·Google Fonts·HuggingFace·Internet Archive·ccMixter, 키 필요 Pexels·Pixabay·Unsplash·Freesound·Jamendo. 폰트·TTS 음성 모델 설치, 프로젝트별 출처 표기 생성 |
+| **⑤ 워터마크 제거** `/watermark` | 이미지·영상 업로드, 브러시로 영역 지정(되돌리기), 영상은 시간 구간별 영역(최대 100구간), 복원 방식 3종(빠름·디테일·구조 보존), 강도·확장 조절, 원본 오디오 유지 |
+| **⑥ 동영상 편집** `/editor` | 멀티트랙 타임라인(화면 세로 50%): 분할·잘라내기·복사·붙여넣기·복제·리플 삭제·그룹·트랙 잠금/숨김/음소거·스냅·실행취소·필름스트립·전체 맞춤. 클립 속성: 볼륨·속도(0.25~4배)·확대·페이드·밝기/대비/채도·색온도·색조·블러·샤픈·회전·크롭·재배치·마스크·크로마키·손떨림 보정·역재생·정지화면·전환 11종·키프레임 6종. 자동 분석(장면·무음·발화)·자동 자막(STT, 짧은 읽기 단위 분할)·내레이션(TTS)·오버레이 템플릿·워터마크·자동 편집 초안·AI 편집점/효과/자막 다듬기. 내보내기: MP4 3단계 화질, SRT·FCPXML·EDL |
+| **⑦ 썸네일 편집** `/thumbnail` | 레이어 10종, 다중 선택·정렬 6종·간격 분배·그룹·순서·복제·잠금·숨김·뒤집기·합성 모드 10종·그림자, 텍스트(글꼴·외곽선·그라디언트 등), 이미지(자르기·보정·흐림·배경색 지우기·AI 누끼), 사용자 글꼴 업로드, 기본 템플릿 10종, 에셋 라이브러리 연동, AI 문구 제안·다듬기·배경 생성(OpenAI 키), 자동저장(15초), PNG/JPG 1x~3x·투명 PNG |
+
+**공통**: 자동 업데이트(6시간 주기 + 실행 시 1회 + 수동, 되돌리기, 앱이 안 뜰 때 패치 파일 단독 실행) ·
+AI 연동 선택(Claude Code 구독은 키 불필요 / Anthropic · OpenAI · Gemini 키, 액션 8종, 동시 4건 제한,
+실패 진단) · 콘텐츠 점수 3종(공개 영상·내 영상·제안) · 외부 연동 API `/api/v1` 32개 엔드포인트 +
+`mediaflow-engine` 패키지(`docs/API.md`) · `/logs` 페이지 · 서버 모드 인증 게이트.
+AI 를 안 써도 모든 기능이 로컬 규칙으로 동작하며, 예상 수익은 추정하지 않고 특정 저작물의
+사용 가부를 판정하지 않습니다.
+
+실측 수치(픽셀·dB·길이)는 [docs/NLE-FEATURES.md](https://github.com/naramal817/mediaflow-studio/blob/51e4779/docs/NLE-FEATURES.md)(영상) ·
+[docs/IMAGE-FEATURES.md](https://github.com/naramal817/mediaflow-studio/blob/51e4779/docs/IMAGE-FEATURES.md)(이미지)에 있습니다.
+
+## 소스에는 있으나 2.14.1 설치본에는 아직 없는 것 (master, 2026-09-09 병합)
+
+아래는 소스 저장소 `master`(`51e4779`)에 병합돼 있지만 **아직 어떤 설치본·패치에도 포함되지 않았습니다.**
+다음 릴리스(2.15 예정, 미확정)에 들어갑니다.
+
+- **휴대폰 접속 런처** `start_mobile.command` / `start_mobile.bat` — Cloudflare quick tunnel 로 앱을 잠시
+  밖에 내보내고, `MEDIAFLOW_MOBILE_GATE=1` 로 터널 요청에 PIN 페어링(6자리, PC 홈 화면에만 표시,
+  1회용, 5회 실패 시 15분 잠금, 세션 30일)을 강제. 평소 실행은 종전과 같이 로컬 전용.
+- **모바일 PWA** `/m/` — 폰 브라우저용 얇은 클라이언트: 프로젝트 목록, 새 다운로드, AI 제목 제안,
+  트림, 렌더링 지시. 서버 신규 엔드포인트는 `GET /api/mobile/projects` 하나.
+- **안드로이드 앱(React Native/Expo)** `mobile-app/` — PC 모드(원격 리모컨: 다운로드·제목 제안·내보내기)
+  + 온디바이스 모드(PC 없이 60초 이하 클립 트림 + 수동 자막 `.srt`, 갤러리 저장). APK 는 EAS Build 로
+  별도 생성하며 이 저장소에는 없습니다. 자막 화면 합성(burn-in)·온디바이스 STT 는 없음.
+
+> 주의 — hq 보안팀이 2026-09-10 에 이 병합분에 대해 **CRITICAL**(상태변경 라우트 CSRF 검증 부재 +
+> 터널 노출 시 성립) 및 HIGH(페어링 후 전 경로 개방) 를 지적했습니다
+> ([Overwatch/directives/multi-2026-09-10-security-findings.md](https://github.com/naramal817/Overwatch/blob/main/directives/multi-2026-09-10-security-findings.md) §2, 아직 미회신).
+> 터널을 켜지 않는 한(로컬 실행) 노출 경로는 없으나, **이 상태로 설치본을 만들지 않는** 것이 맞습니다.
+
+## 아직 없는 것 (설치본·소스 모두)
+
+오디오 파형 표시 · 모션 트래킹 · 색온도/색조/블러/샤픈 키프레임 · MOV/WebM 내보내기 · 마이크 녹음 ·
+자막 글꼴 선택 · 드래그 박스 다중 선택(편집기) · 썸네일 곡선 텍스트/레이어 마스크/다중 크기조절 ·
+구독 AI 로 이미지 생성 · 음성 복제 상업 이용(XTTS-v2 라이선스, 보류) · ChatGPT/Codex 구독 연동(백로그).
+사유는 `docs/FEATURES.md` 의 "아직 없는 것" 표에 있습니다.
+
+## 이 저장소의 구조 (자동 업데이트 채널)
+
+```
+latest.json                              앱이 주기적으로 읽는 최신 버전 정보(version · sha256 · patch_b64_url · notes)
+v<버전>/mediaflow-<버전>.mfspatch.b64     패치를 base64 로 감싼 것(sha256 은 감싸기 전 원본 기준)
+Releases (GitHub)                         전체 설치기 exe · Mac zip · zip · bat · 원본 .mfspatch
+```
+
+- 앱(`engine/autoupdate.py`)은 `main` 브랜치의 `latest.json` 만 읽습니다. 이 README 는 읽지 않습니다.
+- 비공개 저장소라 앱은 PC 에 로그인된 GitHub CLI 인증을 빌려 읽습니다. CLI 가 없으면 "최신"이라고
+  거짓 표시하지 않고 릴리스 페이지에서 받으라고 안내합니다(2.14.1).
+- 릴리스 만들기: 소스 저장소 `tools/make_patch.py` → `tools/prepare_autoupdate_release.py` →
+  이 저장소에 `latest.json` + `v<버전>/` 커밋(PR) + GitHub Release 에 전체 설치기 첨부.
+  Windows exe 는 `.NET Framework csc.exe` 가 있는 Windows PC 에서만 만들어집니다(`tools/make_installer.py`).
+
+## 이력
+
+| 버전 | 날짜 | 요지 |
+|---|---|---|
+| 2.14.1 | 2026-09-09 | 비공개 릴리스 저장소 인증 조회, 조회 실패를 최신으로 오표시하지 않음 |
+| 2.14.0 | 2026-09-09 | Windows GUI 설치 마법사·트레이 앱, 성향별 훅·편집 구성, 자동 자막 분할, 타임라인 전체 맞춤 |
+| 2.13.x | 2026-09-09 | 신규 설치 경로 선택, 제목 훅 품질 |
+| 2.12.1 | 2026-09-09 | 편집기 500(한국어 로캘 인코딩) 수정, AI 훅 강화, 라이선스 필터, 다운로드 재실행 버그 |
+
+각 버전의 상세 경위는 소스 저장소 `CONTRACT.md` 69~78항에 있습니다.
