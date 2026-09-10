@@ -1,9 +1,9 @@
 {
-  "version": "2.18.2",
-  "sha256": "5b4c856634f76b0e52dce41a32430c145246c1f908fef615bfcc1a3ea42170a3",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.18.2/mediaflow-2.18.2.mfspatch.b64",
+  "version": "2.18.3",
+  "sha256": "71896dd2d5019fcdcfc9335fd4abd91a8e58623012889803f92309d3e0700cd3",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.18.3/mediaflow-2.18.3.mfspatch.b64",
   "notes": [
-    "설치기가 덮어쓰기 전 실행 중인지 확인하고 종료 여부를 물어본다",
-    "재시작 루프가 이전 프로세스의 포트 반납을 최대 10초 기다린다"
+    "다운로드 목록의 편집점 만들기·편집 버튼이 겹쳐 보이던 것을 고쳤다",
+    "자동 분석 진행 중 배경을 눌러도 창이 사라지지 않는다"
   ]
 }
