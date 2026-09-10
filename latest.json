@@ -1,10 +1,11 @@
 {
-  "version": "2.16.0",
-  "sha256": "a335bf1366a92c397f040e05e81d762b42808d24c03d417cb445a7eaf66b2ebf",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.16.0/mediaflow-2.16.0.mfspatch.b64",
+  "version": "2.16.1",
+  "sha256": "ce2cad0e5bb60884fe08e0d23b5ce7605acba4c621ae947c91659c990e7a9463",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.16.1/mediaflow-2.16.1.mfspatch.b64",
   "notes": [
-    "Faster downloads and persistent storage",
-    "Manual hook, caption and effect editing",
-    "Auto-caption progress and multitrack preview editing"
+    "Persistent downloads and editing projects",
+    "Unified desktop workspace and navigation",
+    "Direct time or frame seek with audio recovery",
+    "Application icon and one-click restart"
   ]
 }
