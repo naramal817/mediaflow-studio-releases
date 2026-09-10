@@ -1,6 +1,6 @@
 {
   "version": "2.17.0",
-  "sha256": "0426f17844f8f155c69d7f121db6f9ad514439135154ccb7fb5facd4335f6906",
+  "sha256": "73bc08fc97a2112e48e1ad2ab66962af5ce597c2d37a82bbb9519150edbebc46",
   "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.17.0/mediaflow-2.17.0.mfspatch.b64",
   "notes": [
     "내보내기 오버레이·자막 위치가 편집기 미리보기와 같아짐",
