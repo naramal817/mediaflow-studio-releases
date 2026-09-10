@@ -1,9 +1,9 @@
 {
-  "version": "2.18.1",
-  "sha256": "7440b4dcb1a1514dbf4274125ee38ad413b34b9d7047cebad158b1e0bfa6951c",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.18.1/mediaflow-2.18.1.mfspatch.b64",
+  "version": "2.18.2",
+  "sha256": "5b4c856634f76b0e52dce41a32430c145246c1f908fef615bfcc1a3ea42170a3",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.18.2/mediaflow-2.18.2.mfspatch.b64",
   "notes": [
-    "지금 확인이 큰 패치에서 조용히 0바이트를 받아 해시 불일치로 보이던 문제를 고쳤다",
-    "raw.githubusercontent.com 을 인증 헤더로 직접 부른다"
+    "설치기가 덮어쓰기 전 실행 중인지 확인하고 종료 여부를 물어본다",
+    "재시작 루프가 이전 프로세스의 포트 반납을 최대 10초 기다린다"
   ]
 }
