@@ -1,9 +1,10 @@
 {
-  "version": "2.18.3",
-  "sha256": "71896dd2d5019fcdcfc9335fd4abd91a8e58623012889803f92309d3e0700cd3",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.18.3/mediaflow-2.18.3.mfspatch.b64",
+  "version": "2.19.0",
+  "sha256": "de3bc30190728b424f7412a0af2e26981c878c21ede5d76cca45ba67b13a430c",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.0/mediaflow-2.19.0.mfspatch.b64",
   "notes": [
-    "다운로드 목록의 편집점 만들기·편집 버튼이 겹쳐 보이던 것을 고쳤다",
-    "자동 분석 진행 중 배경을 눌러도 창이 사라지지 않는다"
+    "그룹 이동·스냅 버그 근본 수정, 붙이기·레이어 순서변경/삭제·수동저장·다중선택 일괄편집 추가",
+    "같은 영상 재분석 캐싱, 자막/제목 안전영역 가이드, 쇼츠/릴스/틱톡 실제 길이 상한 반영",
+    "hq 보안 CSRF 헤더 누락 수정(AI 설정 위젯 403 실사용 버그)"
   ]
 }
