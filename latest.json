@@ -1,8 +1,8 @@
 {
-  "version": "2.19.3",
-  "sha256": "968a1b4e0ff08e745b0190e1d95ff104dce368f49f2c96c7022a9c26e85639f3",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.3/mediaflow-2.19.3.mfspatch.b64",
+  "version": "2.19.4",
+  "sha256": "c1779cb4f9f7637645c99198bd9b520b5cf625fe7f3653996bd5a34432f5d29f",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.4/mediaflow-2.19.4.mfspatch.b64",
   "notes": [
-    "다른 메뉴로 이동했다 돌아오면 다운로드 진행/완료 상태가 사라지던 것을 복원(localStorage 기반)"
+    "이 세션이 만든 설치기 전부가 트레이 아이콘 없이 콘솔모드로만 나갔던 원인 해소(Mono 컴파일러 대체) — 이제 MediaFlow Studio.exe가 실제로 포함됨"
   ]
 }
