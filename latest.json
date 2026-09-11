@@ -1,9 +1,8 @@
 {
-  "version": "2.19.2",
-  "sha256": "bc37fbf139119cf1b342a1ee39beae4485a8d994b9f5c66b7ec4bc462872d60e",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.2/mediaflow-2.19.2.mfspatch.b64",
+  "version": "2.19.3",
+  "sha256": "968a1b4e0ff08e745b0190e1d95ff104dce368f49f2c96c7022a9c26e85639f3",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.3/mediaflow-2.19.3.mfspatch.b64",
   "notes": [
-    "다른 이름으로 저장 시 클립 1개만 경로가 안 바뀌는 사고 근본 수정(문자열 치환 → 구조적 재계산)",
-    "타임라인 라벨이 Windows 전체 경로로 노출되던 버그 수정"
+    "다른 메뉴로 이동했다 돌아오면 다운로드 진행/완료 상태가 사라지던 것을 복원(localStorage 기반)"
   ]
 }
