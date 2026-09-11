@@ -1,9 +1,9 @@
 {
-  "version": "2.19.1",
-  "sha256": "d938137d7f824f085e2fce570f1918498762217d4fb94de98a1e5b39a1414737",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.1/mediaflow-2.19.1.mfspatch.b64",
+  "version": "2.19.2",
+  "sha256": "bc37fbf139119cf1b342a1ee39beae4485a8d994b9f5c66b7ec4bc462872d60e",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.2/mediaflow-2.19.2.mfspatch.b64",
   "notes": [
-    "다운로드 저장 위치를 설치 폴더 안(apps/downloader/downloads)으로 변경 — 사용자 Downloads 폴더 안 위치를 오인해 삭제하는 사고 방지",
-    "Windows 설치기 포트점유 확인 블록을 goto 흐름으로 재작성, 전 구간 진단 로그 추가"
+    "다른 이름으로 저장 시 클립 1개만 경로가 안 바뀌는 사고 근본 수정(문자열 치환 → 구조적 재계산)",
+    "타임라인 라벨이 Windows 전체 경로로 노출되던 버그 수정"
   ]
 }
