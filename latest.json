@@ -1,8 +1,8 @@
 {
-  "version": "2.19.5",
-  "sha256": "0de34822dbe95b4cfe188f697c2516ce5f1a224121e93d9653abccdf12e6a7cc",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.5/mediaflow-2.19.5.mfspatch.b64",
+  "version": "2.19.6",
+  "sha256": "0afc87653f61695bb322f029342bf06842769c60ffdd18a74e065c975e320c9a",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.6/mediaflow-2.19.6.mfspatch.b64",
   "notes": [
-    "설치기가 더 최신 버전 위에 예전 설치 파일을 실수로 덮어쓰려 하면 경고하고 확인을 받도록 함(기본값 취소)"
+    "자동 업데이트가 여러 버전을 건너뛴 설치본도 한 번에 따라잡을 수 있게 함(patch 사슬, chain.json)"
   ]
 }

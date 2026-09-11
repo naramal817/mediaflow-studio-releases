@@ -1,0 +1,193 @@
+{
+  "hops": [
+    {
+      "from_version": "2.11.2",
+      "to_version": "2.12.1",
+      "sha256": "eaff7052b329b25de8b971d8d97340c4997145e6288865a3e4dc211d0fc14581",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.12.1/mediaflow-2.12.1.mfspatch.b64",
+      "notes": [
+        "편집기 영상 업로드 500 오류의 진짜 원인(한국어 로캘 인코딩) 수정 + 브라우저에서 보는 /logs 페이지 추가",
+        "편집기 'AI 제안' 패널의 구간 설명을 실제 발화 인용 기반 훅으로 개선",
+        "AssetVault 웹검색·내 라이브러리에 영리/비영리(NC) 라이선스 필터 추가",
+        "ClipSave: 재구성 방식만 바꿔도 다운로드를 처음부터 다시 하던 문제 수정"
+      ]
+    },
+    {
+      "from_version": "2.12.1",
+      "to_version": "2.13.0",
+      "sha256": "a67d16308875f84989bf8529bccaed41fe3b7496c85ffa929af209a771097fac",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.13.0/mediaflow-2.13.0.mfspatch.b64",
+      "notes": [
+        "시청 성향 7종별 질문·반박·숫자·효용 훅 우선순위 강화",
+        "쇼츠와 롱폼의 콜드오픈·맥락·전개·결론 재생 순서 보존",
+        "접근 로그와 Windows 테스트 실행 안정성 개선"
+      ]
+    },
+    {
+      "from_version": "2.13.0",
+      "to_version": "2.13.1",
+      "sha256": "c33adc375c50be127477a3eaeedaa041a41211d10ccdf14716631058edbab58b",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.13.1/mediaflow-2.13.1.mfspatch.b64",
+      "notes": [
+        "Windows와 macOS 설치 시 폴더 선택창 제공",
+        "신규 설치용 웹 다운로드 페이지 제공"
+      ]
+    },
+    {
+      "from_version": "2.13.1",
+      "to_version": "2.14.0",
+      "sha256": "717a97aa52624fcc3ff356a45a4cb9b33bce18478f348a0115f87b1c84f7d629",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.14.0/mediaflow-2.14.0.mfspatch.b64",
+      "notes": [
+        "성향별·커뮤니티형 제목 훅과 점수 개선",
+        "자동 자막 단위 단축과 타임라인 전체 맞춤",
+        "Windows GUI 설치기와 트레이 백그라운드 실행"
+      ]
+    },
+    {
+      "from_version": "2.14.0",
+      "to_version": "2.14.1",
+      "sha256": "47fdf2989be53378a4abf307bd7633289674019a36284908f86c72a70c0ed6a1",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.14.1/mediaflow-2.14.1.mfspatch.b64",
+      "notes": [
+        "GitHub 로그인 인증으로 비공개 릴리스 확인",
+        "조회 실패를 최신 버전으로 잘못 표시하지 않음"
+      ]
+    },
+    {
+      "from_version": "2.15.0",
+      "to_version": "2.16.0",
+      "sha256": "a335bf1366a92c397f040e05e81d762b42808d24c03d417cb445a7eaf66b2ebf",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.16.0/mediaflow-2.16.0.mfspatch.b64",
+      "notes": [
+        "Faster downloads and persistent storage",
+        "Nonlinear hook order and manual captions/effects",
+        "Visible auto-caption progress and multitrack editing",
+        "Direct preview editing for video captions and overlays"
+      ]
+    },
+    {
+      "from_version": "2.16.0",
+      "to_version": "2.16.1",
+      "sha256": "5ae11f98567e8fe8cf63a6b0e5da41d9ba26dd1f510bfc919141d7b85be083cf",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.16.1/mediaflow-2.16.1.mfspatch.b64",
+      "notes": [
+        "Persistent downloads and editing projects",
+        "Desktop workspace layout and unified navigation",
+        "Direct time or frame seek with audio recovery",
+        "Application icon and one-click restart after update"
+      ]
+    },
+    {
+      "from_version": "2.16.1",
+      "to_version": "2.17.0",
+      "sha256": "73bc08fc97a2112e48e1ad2ab66962af5ce597c2d37a82bbb9519150edbebc46",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.17.0/mediaflow-2.17.0.mfspatch.b64",
+      "notes": [
+        "내보내기 오버레이·자막 위치가 편집기 미리보기와 같아짐(줄바꿈·글자 크기·배경 바)",
+        "오버레이·자막에서 특정 글자만 굵게·기울임·색·폰트",
+        "타임라인 빈 곳을 끌어 여러 항목 선택, 툴바 아이콘화, 트랙 버튼 색상",
+        "두 클립 경계에서 소리가 끊기던 문제 수정",
+        "비율에 플랫폼 이름 표기 + 쇼츠·릴스·틱톡 화면 미리보기",
+        "AI 제안을 Gemini CLI·ChatGPT(Codex) 구독으로도 실행",
+        "구글 로그인(서버 모드), 무대에서 바로 끌어 재배치"
+      ]
+    },
+    {
+      "from_version": "2.17.0",
+      "to_version": "2.18.0",
+      "sha256": "69f1322bec1f51e1b5f62f5f1e8e4f228e492e2ec2747bd43d825f868edb3ce0",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.18.0/mediaflow-2.18.0.mfspatch.b64",
+      "notes": [
+        "무음(정적) 구간을 기록해 두고 확인 후 개별·일괄 삭제",
+        "편집기 없이 자막 파일(.srt)만 뽑는 '자막 추출' 화면",
+        "얼굴 자동 블러, 색 보정 프리셋, 소셜 비율 지름길, 에셋 라이브러리 스티커 오버레이, 반복(루프) 내보내기",
+        "모바일(/m/): PC 화면 복귀, 목록에서 다운로드·AI 제목·내보내기까지, 터널 보안 강화",
+        "AI 제공자 선택 드롭다운, AI 스티커 생성, AI 더빙(번역 자막)",
+        "프로젝트 저장·불러오기 결함 12건 수정, 가져온 파일도 편집점 만들기",
+        "긴 영상에서 쇼츠 후보를 근거 점수와 함께 추출해 원클릭 9:16 프로젝트",
+        "전 화면 상단 바·글자 크기·본문 시작점 통일",
+        "내레이션 추가가 항상 실패하던 버그 수정"
+      ]
+    },
+    {
+      "from_version": "2.18.0",
+      "to_version": "2.18.1",
+      "sha256": "7440b4dcb1a1514dbf4274125ee38ad413b34b9d7047cebad158b1e0bfa6951c",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.18.1/mediaflow-2.18.1.mfspatch.b64",
+      "notes": [
+        "지금 확인이 큰 패치에서 조용히 0바이트를 받아 해시 불일치로 보이던 문제를 고쳤다",
+        "raw.githubusercontent.com 을 인증 헤더로 직접 부른다(1MB 제한 있는 API를 더 안 씀)"
+      ]
+    },
+    {
+      "from_version": "2.18.1",
+      "to_version": "2.18.2",
+      "sha256": "5b4c856634f76b0e52dce41a32430c145246c1f908fef615bfcc1a3ea42170a3",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.18.2/mediaflow-2.18.2.mfspatch.b64",
+      "notes": [
+        "설치기가 덮어쓰기 전 실행 중인지 확인하고 종료 여부를 물어본다",
+        "재시작 루프가 이전 프로세스의 포트 반납을 최대 10초 기다린다"
+      ]
+    },
+    {
+      "from_version": "2.18.2",
+      "to_version": "2.18.3",
+      "sha256": "71896dd2d5019fcdcfc9335fd4abd91a8e58623012889803f92309d3e0700cd3",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.18.3/mediaflow-2.18.3.mfspatch.b64",
+      "notes": [
+        "다운로드 목록의 편집점 만들기·편집 버튼이 겹쳐 보이던 것을 고쳤다",
+        "자동 분석 진행 중 배경을 눌러도 창이 사라지지 않는다"
+      ]
+    },
+    {
+      "from_version": "2.18.3",
+      "to_version": "2.19.0",
+      "sha256": "de3bc30190728b424f7412a0af2e26981c878c21ede5d76cca45ba67b13a430c",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.0/mediaflow-2.19.0.mfspatch.b64",
+      "notes": []
+    },
+    {
+      "from_version": "2.19.0",
+      "to_version": "2.19.1",
+      "sha256": "d938137d7f824f085e2fce570f1918498762217d4fb94de98a1e5b39a1414737",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.1/mediaflow-2.19.1.mfspatch.b64",
+      "notes": []
+    },
+    {
+      "from_version": "2.19.1",
+      "to_version": "2.19.2",
+      "sha256": "bc37fbf139119cf1b342a1ee39beae4485a8d994b9f5c66b7ec4bc462872d60e",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.2/mediaflow-2.19.2.mfspatch.b64",
+      "notes": []
+    },
+    {
+      "from_version": "2.19.2",
+      "to_version": "2.19.3",
+      "sha256": "968a1b4e0ff08e745b0190e1d95ff104dce368f49f2c96c7022a9c26e85639f3",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.3/mediaflow-2.19.3.mfspatch.b64",
+      "notes": []
+    },
+    {
+      "from_version": "2.19.3",
+      "to_version": "2.19.4",
+      "sha256": "c1779cb4f9f7637645c99198bd9b520b5cf625fe7f3653996bd5a34432f5d29f",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.4/mediaflow-2.19.4.mfspatch.b64",
+      "notes": []
+    },
+    {
+      "from_version": "2.19.4",
+      "to_version": "2.19.5",
+      "sha256": "0de34822dbe95b4cfe188f697c2516ce5f1a224121e93d9653abccdf12e6a7cc",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.5/mediaflow-2.19.5.mfspatch.b64",
+      "notes": []
+    },
+    {
+      "from_version": "2.19.5",
+      "to_version": "2.19.6",
+      "sha256": "0afc87653f61695bb322f029342bf06842769c60ffdd18a74e065c975e320c9a",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.6/mediaflow-2.19.6.mfspatch.b64",
+      "notes": []
+    }
+  ]
+}
