@@ -1,8 +1,12 @@
 {
-  "version": "2.19.6",
-  "sha256": "0afc87653f61695bb322f029342bf06842769c60ffdd18a74e065c975e320c9a",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.6/mediaflow-2.19.6.mfspatch.b64",
+  "version": "2.19.7",
+  "sha256": "56938c2ef1df5611a14ab85f3c2b611c1e96081aef4be9019b710c0690348ca1",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.7/mediaflow-2.19.7.mfspatch.b64",
   "notes": [
-    "자동 업데이트가 여러 버전을 건너뛴 설치본도 한 번에 따라잡을 수 있게 함(patch 사슬, chain.json)"
+    "즐겨찾기 삭제 라우트가 다른 앱 소유 에셋을 지울 수 있던 취약점 수정",
+    "모바일 연결 버튼이 헤더 이름 오류로 항상 실패하던 것 수정",
+    "에디터 자동저장이 프로젝트 폴더 밖 경로를 검증 없이 저장하던 것 수정",
+    "즐겨찾기·에셋 라이브러리 목록에 검색·정렬·헤더고정 추가",
+    "CONTRACT 148 반경 통일 누락분(자막 추출·모바일 QR) 보완"
   ]
 }
