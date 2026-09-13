@@ -1,10 +1,8 @@
 {
-  "version": "2.19.10",
-  "sha256": "45e3d5937088ccc7a033580893db53aa778a78741048e09a322364d36ffaf673",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.10/mediaflow-2.19.10.mfspatch.b64",
+  "version": "2.19.11",
+  "sha256": "d77c10b0877ab08b0ba3fb5b50a58a95982c47d32b61d3a94d643ace69ccbd3d",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.19.11/mediaflow-2.19.11.mfspatch.b64",
   "notes": [
-    "에디터 전체 UI 폰트 크기·대비 개선, 탭·목록 레이아웃 넘침 버그 수정",
-    "미리보기 재생바 화면비 프리셋 4종·스틸 프레임 내보내기·사용자 안내선 추가",
-    "안내선 드래그 시 클립이 함께 끌리던 문제, 스틸 프레임 다운로드 404 문제 수정"
+    "실제 STT 근거, 후킹 전략, 신뢰도와 정책 사전 경고를 추가했습니다."
   ]
 }
