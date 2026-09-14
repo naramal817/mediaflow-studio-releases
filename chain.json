@@ -258,6 +258,18 @@
       "notes": [
         "영상 화면 분석, 편집점 정밀 보정, 구버전 복구와 내부 호환성 감시"
       ]
+    },
+    {
+      "from_version": "2.20.0",
+      "to_version": "2.20.1",
+      "sha256": "476165930ee9e9c4c43f66d2c8b639640f0e502e60e11ccdd35624e234a215fe",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.20.1/mediaflow-2.20.1.mfspatch.b64",
+      "notes": [
+        "겹친 영상 2개를 좌우·상하·PIP로 빠르게 배치",
+        "크롭 후 이동·확대할 때 잘라낸 원본 영역이 다시 나타나던 문제 수정",
+        "미리보기 도구를 드롭다운으로 정리하고 자르기 안내·닫기 개선",
+        "AI 제목·훅·편집점 품질 및 Shorts 권리·YPP 위험도 보조 강화"
+      ]
     }
   ]
 }
