@@ -249,6 +249,15 @@
       "notes": [
         "실제 STT 근거, 후킹 전략, 신뢰도와 정책 사전 경고를 추가했습니다."
       ]
+    },
+    {
+      "from_version": "2.19.11",
+      "to_version": "2.20.0",
+      "sha256": "6ccea472afbe30663c756bd37143ec2d6ab0fb4c51e2313d18329bf6b09d1541",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.20.0/mediaflow-2.20.0.mfspatch.b64",
+      "notes": [
+        "영상 화면 분석, 편집점 정밀 보정, 구버전 복구와 내부 호환성 감시"
+      ]
     }
   ]
 }
