@@ -510,6 +510,7 @@
     | 신규 사업 아이템(60건 합본) | Artifact — [정밀 아이템 전체](https://claude.ai/code/artifact/50d8f4cd-b0f9-421f-a0b8-5eab85d824e6)(2026-07-25) | 사업화 아이디어 발굴 최종본. 새 수익모델 검토 전 먼저 여기서 겹치는지 확인 | — |
     | 전사 자산 실측(20개 저장소) | Artifact — [자산 분석](https://claude.ai/code/artifact/fc7efbd4-6679-43e7-8935-fb3af84860b3)(2026-07-25) | 코드자산 실측 스냅샷 — module-catalog.md와 상호보완(이쪽은 시점 스냅샷, 그쪽은 상시 갱신) | — |
     | 디자인 코퍼스(클라우드용) | `design-index.naramal.workers.dev`(토큰 필요, `project=design`) | awwwards·gdweb 분석 852건 keyword·industry·medium 추천 검색. 원본(제3자 저작물) 아님 — 우리 분석만 | design/CLAUDE.md |
+    | 앱인토스(토스 미니앱)·안드로이드 개발 지식 | `AI-Wiki/20-Wiki/앱인토스-미니앱-개발.md` · `안드로이드-빌드와-웹뷰.md`(`naramal817/ai-wiki`) | SDK 3.x 설정(`apps-in-toss.config.ts`)·로그인/결제/광고·출시 체크리스트·함정(**Windows 에서 `ait build` 하면 번들 경로가 역슬래시** — 배포 번들은 리눅스 CI, `ait build` 는 실패해도 종료코드 0). 재사용 코드: malmun `src/channel.mjs`(웹/토스 채널 어댑터)·`tools/verify-ait.mjs`(.ait 검사) | 2026-09-28 |
     | 전사 클라우드 운영본부(hq) | `hq` 저장소(`naramal817/hq`) | 물리서버 독립 상시 팀 본부. 보안팀부터 가동(`RemoteTrigger` 매일 20:47 UTC=05:47 KST) — 발견은 각 프로젝트 `directives/`에 커밋, 집계는 `hq/security/reports/` | hq/CLAUDE.md·hq/security/CHARTER.md |
 
     > 🔴 **코덱스에 일 시킬 때 — `approval-policy: "never"` 로 띄운다(2026-07-28 실측)**.
