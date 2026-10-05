@@ -270,6 +270,28 @@
         "미리보기 도구를 드롭다운으로 정리하고 자르기 안내·닫기 개선",
         "AI 제목·훅·편집점 품질 및 Shorts 권리·YPP 위험도 보조 강화"
       ]
+    },
+    {
+      "from_version": "2.20.1",
+      "to_version": "2.20.2",
+      "sha256": "eba46658460da89469ff3dcdc52534bee3f78f18b41eb4e1abac3a5a1b4dc3fa",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.20.2/mediaflow-2.20.2.mfspatch.b64",
+      "notes": [
+        "PC 편집기 미디어 업로드 합계 상한을 2GB에서 16GB로 확대, 초과는 미리 안내"
+      ]
+    },
+    {
+      "from_version": "2.20.2",
+      "to_version": "2.21.0",
+      "sha256": "bc44c0be94a57859935c31f1a10995e39ad0c864688337d3e24342e9e9168d20",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.21.0/mediaflow-2.21.0.mfspatch.b64",
+      "notes": [
+        "AI 컷 검수: 후보를 대기·승인·거절·보류·수동으로 판정하고 승인분만 적용(A/R/H/E 단축키)",
+        "대본 편집: 문장을 지우면 영상도 잘리고 되살리면 복원, 필러·반복 문장 표시",
+        "썸네일: 얼굴 후보 고르기, 정보형·질문형·주장형 A/B/C 시안을 만들어 편집기로",
+        "녹화·방송(새 메뉴): 화면·웹캠·마이크 장면 합성, 크로마키, 소리 믹서, 직접 녹화, YouTube·RTMP(S) 방송(끊기면 자동 재연결), OBS 연결",
+        "방송이 끝나면 [끝내고 편집하기] — 녹화와 마커로 편집 프로젝트를 만들고 자동 분석"
+      ]
     }
   ]
 }

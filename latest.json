@@ -1,12 +1,14 @@
 {
-  "version": "2.20.1",
-  "sha256": "476165930ee9e9c4c43f66d2c8b639640f0e502e60e11ccdd35624e234a215fe",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.20.1/mediaflow-2.20.1.mfspatch.b64",
+  "version": "2.21.0",
+  "sha256": "bc44c0be94a57859935c31f1a10995e39ad0c864688337d3e24342e9e9168d20",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.21.0/mediaflow-2.21.0.mfspatch.b64",
   "notes": [
-    "겹친 영상 2개 좌우·상하·PIP 배치와 크롭 경계 수정",
-    "미리보기 도구 메뉴 및 자르기 안내 개선",
-    "AI 제목·훅·편집점과 Shorts 권리·YPP 위험도 보조 강화"
+    "AI 컷 검수: 후보를 승인·거절·보류·수동으로 판정하고 승인분만 적용",
+    "대본 편집: 문장을 지우면 영상도 잘리고 되살리면 복원",
+    "썸네일: 얼굴 후보와 A/B/C 시안 자동 생성",
+    "녹화·방송(새 메뉴): 장면 합성·크로마키·소리 믹서·직접 녹화·YouTube/RTMP(S) 방송·OBS 연결",
+    "방송이 끝나면 [끝내고 편집하기]로 편집 프로젝트·자동 분석"
   ],
-  "full_sha256": "9d8bc4b876db6300f994be7d8374946fd139e9e6c58efa10205fef7aeaedfca2",
-  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.20.1/mediaflow-2.20.1-full.mfspatch.b64"
+  "full_sha256": "1b82e6f99554ef94e05cef27043b0e4ea74d178fb4a5b9112ee7f0dfc5eb8efa",
+  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.21.0/mediaflow-2.21.0-full.mfspatch.b64"
 }
