@@ -341,6 +341,17 @@
         "Data Story: 가로 16:9 영상, 영상 글자 한국어, 에셋 라이브러리 로고 연결",
         "Data Story: WHO 공식 데이터·StatCounter 사용 점유율 CSV·새 데이터 재생성 후보"
       ]
+    },
+    {
+      "from_version": "2.24.0",
+      "to_version": "2.25.0",
+      "sha256": "5e97bd7174464550cba99163d0d696104c84c1b4ad9897a19a83552d612fe0e8",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.25.0/mediaflow-2.25.0.mfspatch.b64",
+      "notes": [
+        "Data Story: 주제로 시작 — 분야만 주면 AI(Claude Code 구독)가 주제를 기획하고 공식 데이터를 찾아 미리보기 영상까지 자동으로 만듦",
+        "Data Story: 공식 CSV·엑셀은 앱이 직접 내려받아 전 기간을 읽고, 값마다 파일 셀 위치·출처를 근거로 남김",
+        "첫 실행 때 준비 중 안내 창·중복 실행 확인·서버 자동 재시작(연결 거부 화면 대신)"
+      ]
     }
   ]
 }
