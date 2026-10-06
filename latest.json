@@ -1,12 +1,12 @@
 {
-  "version": "2.24.0",
-  "sha256": "dbdcc475255339603df130c579c5ea53bac3a2d63665b8f3cb6e2359ae05eb86",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.24.0/mediaflow-2.24.0.mfspatch.b64",
+  "version": "2.25.0",
+  "sha256": "5e97bd7174464550cba99163d0d696104c84c1b4ad9897a19a83552d612fe0e8",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.25.0/mediaflow-2.25.0.mfspatch.b64",
   "notes": [
-    "Data Story: 근거가 붙은 내레이션 초안(영/한) — 편집기 자막·기존 음성 기능으로 내레이션",
-    "Data Story: 가로 16:9 영상, 영상 글자 한국어, 에셋 라이브러리 로고 연결",
-    "Data Story: WHO 공식 데이터·StatCounter 사용 점유율 CSV·새 데이터 재생성 후보"
+    "Data Story: 주제로 시작 — 분야만 주면 AI(Claude Code 구독)가 주제를 기획하고 공식 데이터를 찾아 미리보기 영상까지 자동으로 만듦",
+    "Data Story: 공식 CSV·엑셀은 앱이 직접 내려받아 전 기간을 읽고, 값마다 파일 셀 위치·출처를 근거로 남김",
+    "첫 실행 때 준비 중 안내 창·중복 실행 확인·서버 자동 재시작(연결 거부 화면 대신)"
   ],
-  "full_sha256": "6664cf01f543e3dfae0c166b0559d4774215002a64af0d830a2f776f44a9547f",
-  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.24.0/mediaflow-2.24.0-full.mfspatch.b64"
+  "full_sha256": "20163b37c980a7bdabc0f114c0f6ccd7ea19662c8e79928db95d66411d5d4869",
+  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.25.0/mediaflow-2.25.0-full.mfspatch.b64"
 }
