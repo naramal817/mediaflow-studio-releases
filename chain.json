@@ -292,6 +292,16 @@
         "녹화·방송(새 메뉴): 화면·웹캠·마이크 장면 합성, 크로마키, 소리 믹서, 직접 녹화, YouTube·RTMP(S) 방송(끊기면 자동 재연결), OBS 연결",
         "방송이 끝나면 [끝내고 편집하기] — 녹화와 마커로 편집 프로젝트를 만들고 자동 분석"
       ]
+    },
+    {
+      "from_version": "2.21.0",
+      "to_version": "2.22.0",
+      "sha256": "524a30f2e87e7d080211e999fe8d729c8f6720ed67d15c6cdbc32866836ca843",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.22.0/mediaflow-2.22.0.mfspatch.b64",
+      "notes": [
+        "CSV/JSON/표 가져오기, 원본 보존, 정규화·검증, Revision LOCK 및 재오픈",
+        "Data Review 화면과 작업 종료 안정성 개선"
+      ]
     }
   ]
 }

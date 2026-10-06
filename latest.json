@@ -1,14 +1,11 @@
 {
-  "version": "2.21.0",
-  "sha256": "bc44c0be94a57859935c31f1a10995e39ad0c864688337d3e24342e9e9168d20",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.21.0/mediaflow-2.21.0.mfspatch.b64",
+  "version": "2.22.0",
+  "sha256": "524a30f2e87e7d080211e999fe8d729c8f6720ed67d15c6cdbc32866836ca843",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.22.0/mediaflow-2.22.0.mfspatch.b64",
   "notes": [
-    "AI 컷 검수: 후보를 승인·거절·보류·수동으로 판정하고 승인분만 적용",
-    "대본 편집: 문장을 지우면 영상도 잘리고 되살리면 복원",
-    "썸네일: 얼굴 후보와 A/B/C 시안 자동 생성",
-    "녹화·방송(새 메뉴): 장면 합성·크로마키·소리 믹서·직접 녹화·YouTube/RTMP(S) 방송·OBS 연결",
-    "방송이 끝나면 [끝내고 편집하기]로 편집 프로젝트·자동 분석"
+    "CSV/JSON/표 가져오기, 원본 보존, 정규화·검증, Revision LOCK 및 재오픈",
+    "Data Review 화면과 작업 종료 안정성 개선"
   ],
-  "full_sha256": "1b82e6f99554ef94e05cef27043b0e4ea74d178fb4a5b9112ee7f0dfc5eb8efa",
-  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.21.0/mediaflow-2.21.0-full.mfspatch.b64"
+  "full_sha256": "3a21ce3c790117ee3e8baeba9113e2afc0f499aca2a677340eee1e89fd5bea11",
+  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.22.0/mediaflow-2.22.0-full.mfspatch.b64"
 }
