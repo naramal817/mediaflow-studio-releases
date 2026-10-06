@@ -1,11 +1,11 @@
 {
-  "version": "2.22.0",
-  "sha256": "524a30f2e87e7d080211e999fe8d729c8f6720ed67d15c6cdbc32866836ca843",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.22.0/mediaflow-2.22.0.mfspatch.b64",
+  "version": "2.22.1",
+  "sha256": "8e22ad85f288aa40546b26ddfbee78becf180648cea1157e591872b01dcfa5cd",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.22.1/mediaflow-2.22.1.mfspatch.b64",
   "notes": [
-    "CSV/JSON/표 가져오기, 원본 보존, 정규화·검증, Revision LOCK 및 재오픈",
-    "Data Review 화면과 작업 종료 안정성 개선"
+    "Microsoft Store 실행 별칭을 실제 Python으로 오인하지 않도록 수정",
+    "공백 경로와 기존 가상환경을 검증하고 설치 후 Python 실행을 재확인"
   ],
-  "full_sha256": "3a21ce3c790117ee3e8baeba9113e2afc0f499aca2a677340eee1e89fd5bea11",
-  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.22.0/mediaflow-2.22.0-full.mfspatch.b64"
+  "full_sha256": "c183b4a6f3a7b7e312b4e98c58aaf27a948473d334dab858d5c51c2a9faf8f32",
+  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.22.1/mediaflow-2.22.1-full.mfspatch.b64"
 }

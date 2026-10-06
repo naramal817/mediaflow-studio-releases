@@ -302,6 +302,16 @@
         "CSV/JSON/표 가져오기, 원본 보존, 정규화·검증, Revision LOCK 및 재오픈",
         "Data Review 화면과 작업 종료 안정성 개선"
       ]
+    },
+    {
+      "from_version": "2.22.0",
+      "to_version": "2.22.1",
+      "sha256": "8e22ad85f288aa40546b26ddfbee78becf180648cea1157e591872b01dcfa5cd",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.22.1/mediaflow-2.22.1.mfspatch.b64",
+      "notes": [
+        "Microsoft Store 실행 별칭을 실제 Python으로 오인하지 않도록 수정",
+        "공백 경로와 기존 가상환경을 검증하고 설치 후 Python 실행을 재확인"
+      ]
     }
   ]
 }
