@@ -1,11 +1,11 @@
 {
-  "version": "2.22.1",
-  "sha256": "8e22ad85f288aa40546b26ddfbee78becf180648cea1157e591872b01dcfa5cd",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.22.1/mediaflow-2.22.1.mfspatch.b64",
+  "version": "2.23.0",
+  "sha256": "c6f1e989cb3224bfeee1454ef5bc31922a16419d79f5b0ba5ab0d0e17b9dd09e",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.23.0/mediaflow-2.23.0.mfspatch.b64",
   "notes": [
-    "Microsoft Store 실행 별칭을 실제 Python으로 오인하지 않도록 수정",
-    "공백 경로와 기존 가상환경을 검증하고 설치 후 Python 실행을 재확인"
+    "World Bank 연결, 분석·사건 검토와 Content Pack 저장",
+    "WORLD IN MOTION·SIGNAL 독립 영상 렌더와 편집기 왕복"
   ],
-  "full_sha256": "c183b4a6f3a7b7e312b4e98c58aaf27a948473d334dab858d5c51c2a9faf8f32",
-  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.22.1/mediaflow-2.22.1-full.mfspatch.b64"
+  "full_sha256": "aef31b5dba58868a5873507ec3ca0f3c6b9473c82d6badc5d86ed8b3e8d5f926",
+  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.23.0/mediaflow-2.23.0-full.mfspatch.b64"
 }

@@ -312,6 +312,13 @@
         "Microsoft Store 실행 별칭을 실제 Python으로 오인하지 않도록 수정",
         "공백 경로와 기존 가상환경을 검증하고 설치 후 Python 실행을 재확인"
       ]
+    },
+    {
+      "from_version": "2.22.1",
+      "to_version": "2.23.0",
+      "sha256": "c6f1e989cb3224bfeee1454ef5bc31922a16419d79f5b0ba5ab0d0e17b9dd09e",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.23.0/mediaflow-2.23.0.mfspatch.b64",
+      "notes": []
     }
   ]
 }
