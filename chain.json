@@ -319,6 +319,17 @@
       "sha256": "c6f1e989cb3224bfeee1454ef5bc31922a16419d79f5b0ba5ab0d0e17b9dd09e",
       "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.23.0/mediaflow-2.23.0.mfspatch.b64",
       "notes": []
+    },
+    {
+      "from_version": "2.23.0",
+      "to_version": "2.23.1",
+      "sha256": "025033a9a77fbe610cc0f1e762e9a0e81d518e627718abe110c014f11e9421e7",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.23.1/mediaflow-2.23.1.mfspatch.b64",
+      "notes": [
+        "Data Story 맨 위에 진행 단계 1~6과 '다음 할 일' 안내, 처음 시작 패널(합성 예제·World Bank·내 자료)",
+        "사용 방법·용어 설명, 분석 후보 종류·관측 상태 한글 표시, 목록 이름을 날짜·영상 수로",
+        "출처 ID 칸 검증이 크롬에서 동작하지 않던 문제 수정"
+      ]
     }
   ]
 }
