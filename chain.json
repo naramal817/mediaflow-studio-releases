@@ -330,6 +330,17 @@
         "사용 방법·용어 설명, 분석 후보 종류·관측 상태 한글 표시, 목록 이름을 날짜·영상 수로",
         "출처 ID 칸 검증이 크롬에서 동작하지 않던 문제 수정"
       ]
+    },
+    {
+      "from_version": "2.23.1",
+      "to_version": "2.24.0",
+      "sha256": "dbdcc475255339603df130c579c5ea53bac3a2d63665b8f3cb6e2359ae05eb86",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.24.0/mediaflow-2.24.0.mfspatch.b64",
+      "notes": [
+        "Data Story: 근거가 붙은 내레이션 초안(영/한) — 편집기에 자막으로 넣고 기존 음성 기능으로 내레이션",
+        "Data Story: 가로 16:9 영상, 영상 글자 한국어, 에셋 라이브러리 로고 연결",
+        "Data Story: WHO 공식 데이터·StatCounter 사용 점유율 CSV·새 데이터 재생성 후보"
+      ]
     }
   ]
 }

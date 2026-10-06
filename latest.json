@@ -1,12 +1,12 @@
 {
-  "version": "2.23.1",
-  "sha256": "025033a9a77fbe610cc0f1e762e9a0e81d518e627718abe110c014f11e9421e7",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.23.1/mediaflow-2.23.1.mfspatch.b64",
+  "version": "2.24.0",
+  "sha256": "dbdcc475255339603df130c579c5ea53bac3a2d63665b8f3cb6e2359ae05eb86",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.24.0/mediaflow-2.24.0.mfspatch.b64",
   "notes": [
-    "Data Story: 진행 단계 1~6과 '다음 할 일' 안내, 처음 시작 패널(합성 예제·World Bank·내 자료)",
-    "Data Story: 사용 방법·용어 설명, 분석 후보 종류·관측 상태 한글, 목록 이름 정리",
-    "출처 ID 칸 검증이 크롬에서 동작하지 않던 문제 수정"
+    "Data Story: 근거가 붙은 내레이션 초안(영/한) — 편집기 자막·기존 음성 기능으로 내레이션",
+    "Data Story: 가로 16:9 영상, 영상 글자 한국어, 에셋 라이브러리 로고 연결",
+    "Data Story: WHO 공식 데이터·StatCounter 사용 점유율 CSV·새 데이터 재생성 후보"
   ],
-  "full_sha256": "93326a4fa5a6b5ba3c345edfb541fb14c3696ea119cba1363e13744ad1047d23",
-  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.23.1/mediaflow-2.23.1-full.mfspatch.b64"
+  "full_sha256": "6664cf01f543e3dfae0c166b0559d4774215002a64af0d830a2f776f44a9547f",
+  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.24.0/mediaflow-2.24.0-full.mfspatch.b64"
 }
