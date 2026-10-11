@@ -352,6 +352,15 @@
         "Data Story: 공식 CSV·엑셀은 앱이 직접 내려받아 전 기간을 읽고, 값마다 파일 셀 위치·출처를 근거로 남김",
         "첫 실행 때 준비 중 안내 창·중복 실행 확인·서버 자동 재시작(연결 거부 화면 대신)"
       ]
+    },
+    {
+      "from_version": "2.25.0",
+      "to_version": "2.25.1",
+      "sha256": "5c656ae8a8e28405535897dc83ef18b533d580d3928b327f9b6971922f408c38",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.25.1/mediaflow-2.25.1.mfspatch.b64",
+      "notes": [
+        "Windows 단일 창 수정은 새 설치 파일로 적용됩니다"
+      ]
     }
   ]
 }
