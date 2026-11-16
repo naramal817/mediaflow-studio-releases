@@ -1,11 +1,11 @@
 {
-  "version": "2.25.1",
-  "sha256": "5c656ae8a8e28405535897dc83ef18b533d580d3928b327f9b6971922f408c38",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.25.1/mediaflow-2.25.1.mfspatch.b64",
+  "version": "2.26.0",
+  "sha256": "0c6e3e1f8c2b36f6318b8b7f86b59d19ff03a2ea8b7abce9ae4c800e2dfa62cd",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.26.0/mediaflow-2.26.0.mfspatch.b64",
   "notes": [
-    "Data Story 지표와 한국어 국가명 표시 및 최근 기간 후보 개선",
-    "Windows 단일 창 실행은 비공개 2.25.1 설치 파일로 적용"
+    "로그인·팀별 권한 및 모바일 시나리오·검토·채널 요청",
+    "영상 원본은 PC에 보관하고 선택한 대본·진행상황·검수 이미지만 동기화"
   ],
-  "full_sha256": "ec897cb8f415598a96b5922a786ecafa351624612ccd241b70e7ede59bd4123a",
-  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.25.1/mediaflow-2.25.1-full.mfspatch.b64"
+  "full_sha256": "67f294da6bf3923b118398f65185184a977ae63a5f1decad6b8b0e732bb336c7",
+  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.26.0/mediaflow-2.26.0-full.mfspatch.b64"
 }

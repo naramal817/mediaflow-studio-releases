@@ -361,6 +361,16 @@
       "notes": [
         "Windows 단일 창 수정은 새 설치 파일로 적용됩니다"
       ]
+    },
+    {
+      "from_version": "2.25.1",
+      "to_version": "2.26.0",
+      "sha256": "0c6e3e1f8c2b36f6318b8b7f86b59d19ff03a2ea8b7abce9ae4c800e2dfa62cd",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.26.0/mediaflow-2.26.0.mfspatch.b64",
+      "notes": [
+        "팀별 계정·권한, 모바일 시나리오·검토·채널 요청 지원",
+        "원본 영상은 PC에 보관하고 선택한 대본·검수 이미지만 동기화"
+      ]
     }
   ]
 }
