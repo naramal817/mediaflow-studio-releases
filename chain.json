@@ -371,6 +371,15 @@
         "팀별 계정·권한, 모바일 시나리오·검토·채널 요청 지원",
         "원본 영상은 PC에 보관하고 선택한 대본·검수 이미지만 동기화"
       ]
+    },
+    {
+      "from_version": "2.26.0",
+      "to_version": "2.26.1",
+      "sha256": "15ad2d0977845c43e895f8e9adbd71d3f6a2ec8c3efafa631941e4d1d55bf2df",
+      "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.26.1/mediaflow-2.26.1.mfspatch.b64",
+      "notes": [
+        "로그인·팀 권한 비활성화, 로컬 시나리오와 채널 관리 유지"
+      ]
     }
   ]
 }

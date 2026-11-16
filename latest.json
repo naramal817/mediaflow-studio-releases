@@ -1,11 +1,10 @@
 {
-  "version": "2.26.0",
-  "sha256": "0c6e3e1f8c2b36f6318b8b7f86b59d19ff03a2ea8b7abce9ae4c800e2dfa62cd",
-  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.26.0/mediaflow-2.26.0.mfspatch.b64",
+  "version": "2.26.1",
+  "sha256": "15ad2d0977845c43e895f8e9adbd71d3f6a2ec8c3efafa631941e4d1d55bf2df",
+  "patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.26.1/mediaflow-2.26.1.mfspatch.b64",
   "notes": [
-    "로그인·팀별 권한 및 모바일 시나리오·검토·채널 요청",
-    "영상 원본은 PC에 보관하고 선택한 대본·진행상황·검수 이미지만 동기화"
+    "로그인·팀 권한은 개발 전용으로 분리, PC 시나리오·채널 관리 유지"
   ],
-  "full_sha256": "67f294da6bf3923b118398f65185184a977ae63a5f1decad6b8b0e732bb336c7",
-  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.26.0/mediaflow-2.26.0-full.mfspatch.b64"
+  "full_sha256": "3d2aa4c16fb87ec8ff58791a65855db67de338373c5f89bfb1baf4d5c45720c3",
+  "full_patch_b64_url": "https://raw.githubusercontent.com/naramal817/mediaflow-studio-releases/main/v2.26.1/mediaflow-2.26.1-full.mfspatch.b64"
 }
